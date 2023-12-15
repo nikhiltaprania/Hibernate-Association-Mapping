@@ -6,15 +6,12 @@ This project is an example Java application using Jakarta Persistence (JPA) with
 
 - [Overview](#overview)
 - [Prerequisites](#prerequisites)
+- [Schema](#schema)
 - [Setup](#setup)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
-This project is designed to illustrate the integration of Hibernate with Jakarta Persistence (JPA) for building a simple Java application with database interaction. The main entities in this project are `Person`, `Address`, `Phone`, and `Project`, showcasing different association types.
+This project is designed to illustrate the integration of Hibernate with Jakarta Persistence (JPA) for building a simple Java application with database interaction. The main entities in this project are `Employee`, `Address`, `Phone`, and `Project`, showcasing different association types.
 
 ## Prerequisites
 
@@ -25,6 +22,10 @@ Before running this project, ensure you have the following prerequisites install
 - Database (MySQL) and corresponding JDBC driver
 - Build tool (Maven)
 - IDE (IntelliJ IDEA)
+
+## Schema
+
+![Schema](/EmployeeManagement/src/main/resources/Schema.png)
 
 ## Setup
 
